@@ -7,7 +7,7 @@ Requires **Node.js 22+**. Uses built-in APIs only; no npm dependencies.
 Run from this directory:
 
 ```sh
-node speed-test.mjs https://example.com/file.bin
+node speed-test.mjs https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
 ```
 
 Provide exactly one valid HTTP or HTTPS URL. The script makes 10 requests
@@ -24,7 +24,7 @@ The exit code is 1 for invalid input or no successful attempts, otherwise 0.
 Example output (middle lines omitted):
 
 ```text
-URL: https://example.com/file.bin
+URL: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
 1/10 | HTTP 200 | 200.00 ms | 1000000 bytes | 5.000 MB/s
 2/10 | HTTP 200 | 200.00 ms | 1000000 bytes | 5.000 MB/s
 ...
@@ -66,7 +66,7 @@ server response time.
 Запуск из текущей папки:
 
 ```sh
-node speed-test.mjs https://example.com/file.bin
+node speed-test.mjs https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
 ```
 
 Передайте ровно один валидный HTTP или HTTPS URL. Скрипт делает 10 запросов
@@ -84,7 +84,7 @@ node speed-test.mjs https://example.com/file.bin
 Пример вывода (средние строки сокращены):
 
 ```text
-URL: https://example.com/file.bin
+URL: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
 1/10 | HTTP 200 | 200.00 ms | 1000000 bytes | 5.000 MB/s
 2/10 | HTTP 200 | 200.00 ms | 1000000 bytes | 5.000 MB/s
 ...
